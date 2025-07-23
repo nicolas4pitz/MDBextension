@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "TMDB Movie Player",
+  "version": "1.0",
+
+  "description": "TMDB Films and Series Indexator",
+
+  "icons": {
+    "32": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["borderify.js"]
+    }
+  ]
+}
