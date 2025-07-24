@@ -11,8 +11,8 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["borderify.js"]
+      "matches": ["https://www.themoviedb.org/tv/*"],
+      "js": ["main.js"]
     }
   ]
 }
